@@ -1,0 +1,47 @@
+% --- LaTeX CV Template - S. Venkatraman --- CURRICULUM VITAE
+
+% Set document class and font size
+\documentclass[letterpaper, 11pt]{article}
+\usepackage[utf8]{inputenc}
+
+\usepackage[style=ieee, sorting=ydnt]{biblatex} % instead of bibtex; sorts them in reverse chronological order: ydnt
+\addbibresource{Tex_publications_since2002.bib}
+
+
+% Package imports
+\usepackage{setspace, longtable, graphicx, hyphenat, hyperref, fancyhdr, ifthen, everypage, enumitem, amsmath, setspace}
+
+% --- Page layout settings ---
+
+% Set page margins
+\usepackage[left=1in, right=1in, bottom=0.7in, top=0.7in]{geometry}
+
+% Set line spacing
+\renewcommand{\baselinestretch}{1.15}
+
+% --- Page formatting ---
+
+% Set link colors
+\usepackage[dvipsnames]{xcolor}
+\hypersetup{colorlinks=true, linkcolor=RoyalBlue, urlcolor=RoyalBlue}
+
+% Set font to Libertine, including math support
+\usepackage{libertine}
+\usepackage[libertine]{newtxmath}
+
+% Remove page numbering
+\pagenumbering{gobble}
+
+% --- Document starts here ---
+
+\begin{document}
+
+
+% --- Section: Publications ---
+\nohyphens{\color{OliveGreen}{Publications}} 
+\printbibliography[heading=none] %, 
+
+\nocite{*}
+
+% --- End of CV! ---
+\end{document}
