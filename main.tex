@@ -3,6 +3,7 @@
 % Set document class and font size
 \documentclass[letterpaper, 11pt]{article}
 \usepackage[utf8]{inputenc}
+\usepackage{wrapfig}
 
 \usepackage[style=ieee, sorting=ydnt]{biblatex} % instead of bibtex; sorts them in reverse chronological order: ydnt
 \addbibresource{Tex_publications_since2002.bib}
@@ -37,7 +38,7 @@
 \begin{document}
 
 % Name and date of last update to this document
-\noindent{\Huge{Li-Hsing Tex Chi}
+\noindent{\Huge{Li-Hsing Tex Chi, D.D.S., Ph.D.}
 \hfill{\it\footnotesize Updated \today}}
 
 % --- Contact information and other items ---
@@ -48,7 +49,7 @@
 % Line 1: Email, GitHub, office location
 \textbf{Email}: d622101005@tmu.edu.tw      &
 \hspace{0.2cm} \textbf{GitHub}: /github.com/texchi2    &
-\hspace{0.2cm} 	\textbf{Office}: TMUH \\
+\hspace{0.2cm} 	\textbf{Office}: TMWH \\
 
 % Line 2: Phone number, LinkedIn, citizenship
 \textbf{Phone}: +886 970746852   & 
@@ -59,13 +60,19 @@
 \end{tabular}
 \end{center}
 
+\begin{wrapfigure}{r}{0.3\textwidth}
+    \centering
+    \includegraphics[height=40mm]{IMG_5507_Tex_portrait_TMWH.jpg}
+\end{wrapfigure}
+
 \noindent
 Director (April 2021 - present)\\
-Division of Oral and Maxillofacial Surgery, Department of Dentistry\\ Taipei Municipal Wanfang Hospital\\
+Division of Oral and Maxillofacial Surgery, Department of Dentistry, Taipei Municipal Wanfang Hospital\\[4mm]
 Attending physician (Jan. 2002 - present)\\
-Division of Oral and Maxillofacial Surgery, Department of Dentistry\\
+Division of Oral and Maxillofacial Surgery, Department of Dentistry,
 Taipei Medical University Hospital\\
 Taipei, Taiwan\\
+
 
 % --- Start the two-column table storing the main content ---
 
@@ -78,20 +85,22 @@ Taipei, Taiwan\\
 % --- Section: Research interests ---
 
 \nohyphens{\color{OliveGreen}{Research interests}}
-& Biostatistics with R/Python for survival analyses and deep machine learning,  biomedical data mining, cancer research in vitro and in vivo, mindfulness meditation, laser acupuncture, forensic medicine. \\
+& Biostatistics with R/Python/C++ for survival analyses and deep learning, biomedical informatics; cancer research in vitro and in vivo; mindfulness meditation, laser acupuncture; forensic medicine. \\
 & \\
 
 % --- Section: Education ---
+% my dissertation:
+%1. Chi L-H. Global Transcriptomics and Proteomics Analyses for Biomarker Identification and Validation in Head and Neck Squamous Cell Carcinoma. Published online 2022/01/22.
 
 \color{OliveGreen}{Education} 
 & \textbf{Taipei Medical University and Academia Sinica} \hfill Taipei, Taiwan \\ 
-& Ph.D. in the Ph.D. Program for  Translational Medicine \hfill Feb. 2013 -- Feb. 2022 \\
-& Mentors: Professors Yu-Chuan Jack Li, Michael Hsiao, Alex T. H. Wu. \\
+& The Ph.D. Program for  Translational Medicine \hfill Feb. 2013 -- Feb. 2022 \\
+& Mentors: Professors Yu-Chuan (Jack) Li, Michael Hsiao, Alex T.H Wu. \\
 & \\
 
 & \textbf{Taipei Medical University} \hfill Taipei, Taiwan \\
 & MS in Biomedical Informatics \hfill Sep. 2011 -- Jan. 2013\\
-& Mentor: Professor Yu-Chuan Jack Li.\\ % {\it GPA: X.YZ.}\\
+& Mentor: Professor Yu-Chuan (Jack) Li.\\ % {\it GPA: X.YZ.}\\
 & \\
 % Yu-Chuan Jack Li M.D., Ph.D., FACMI
 
@@ -110,7 +119,7 @@ Taipei, Taiwan\\
 % --- Section: Awards, scholarships, etc. ---
 % --- Note: section title is spread over two lines ---
 
-{\color{OliveGreen}{Honors and Award}} 
+{\color{OliveGreen}{Honors and award}} 
 & Best Paper Presentation Award - 3rd Prize, at Translational Medicine
 Program Retreat (Academia Sinica, Taiwan) \hfill 2017\\
 %{\color{OliveGreen}{scholarships}} 
@@ -180,8 +189,8 @@ Conference on Oral and Maxillofacial Surgery, Vienna, Austria. \\
 
 {\color{OliveGreen}{Skills}} 
 & \textbf{Programming}\\
-& Proficient in: R, Python. \\
-& Familiar with: Matlab, C++. \\
+& Proficient in: R, Python/PyTorch. \\
+& Familiar with: Matlab, SAS, C++. \\
 & \\
 
 & \textbf{Languages} \\
@@ -191,15 +200,15 @@ Conference on Oral and Maxillofacial Surgery, Vienna, Austria. \\
 % --- Section: Service and outreach ---
 
 \color{OliveGreen}{Service and outreach by TMU} % Africa
-& \textbf{Taiwan Medical Mission in the Kingdom of Swaziland, southern Africa} \hfill May 2009 -- Nov. 2010 \\
-& attending physician working at the Mbabane Government Hospital. \\
+& \textbf{Royal Health Mission in the Kingdom of Eswatini, southern Africa} \hfill Sep. 2014 -- Sep. 2019 \\
+& attending physician working at the Manzana Clinic. \\
 & \\
 
 & \textbf{Missão Médica de Taiwan em São Tomé e Príncipe, west Africa} \hfill Nov. 2010 -- Jan. 2012 \\
 & attending physician working at hospital central em São Tomé e Príncipe. \\
 & \\
 
-& \textbf{Royal Health Check Team in the Kingdom of Eswatini, southern Africa} \hfill Annual visit 2014 --  2019 \\
+& \textbf{Taiwan Medical Mission in the Kingdom of Swaziland, southern Africa} \hfill May 2009 -- Nov. 2010 \\
 & attending physician working at the Mbabane Government Hospital. \\
 & \\
 
@@ -209,6 +218,7 @@ Conference on Oral and Maxillofacial Surgery, Vienna, Austria. \\
 \nohyphens{\color{OliveGreen}{Professional memberships}}
 & {\textbf{Taiwanese Association of Oral and Maxillofacial Surgeons (TAOMS)}} \hfill Jan. 2002 -- Present \\
 %{\color{OliveGreen}{memberships}} 
+& Taiwan Society of Forensic Medicine (TSFM) \hfill 2022-\\ 
 & Taiwan Biophysics Society \hfill 2014-\\ 
 & Taiwan Society for Integration of Chinese and Western Medicine (CWM) \hfill 2019-\\
 & Chinese Medical Association of Acupuncture (CMAA, Taiwan) \hfill 2019- \\
@@ -222,7 +232,7 @@ Conference on Oral and Maxillofacial Surgery, Vienna, Austria. \\
 %& \textit{Research Square [Preprint Server], 2020}\\
 %& \\
 
-\pagebreak
+%\pagebreak
 
 \nohyphens{\color{OliveGreen}{References}} 
 & Dr. Bou-yue Pemg, D.D.S., M.S.\\
@@ -247,7 +257,7 @@ Taipei, Taiwan\\
 Academia Sinica, Taipei, Taiwan\\
 & E-mail: mhsiao@gate.sinica.edu.tw\\[0.5cm]
 
-& Dr. Alex T. H. Wu, Ph.D.\\
+& Dr. Alex T.H Wu, Ph.D.\\
 & Associate Professor\\
 & Graduate Program in Translational Medicine,
 College of Medical Science and Technology,
